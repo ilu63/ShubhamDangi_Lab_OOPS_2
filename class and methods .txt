@@ -1,0 +1,36 @@
+shape class
+Fields:
+-Color
+	->CalculateArea()
+	->CalculatePerimeter()
+	->Renderer.draw()
+	->Renderer.draw(message)
+	
+Triangle is a shape:
+	Fields:
+		height, base
+	Methods:
+	-CalculatePerimeter()
+	-CalculateArea()
+	
+Rectangle is a shape:
+	Fields:
+		width, height
+	Methods:
+	-CalculatePerimeter()
+	-CalculateArea()
+	
+Circle is a shape:
+	Fields:
+		radius
+	Methods:
+	-CalculatePerimeter()
+	-CalculateArea()
+	
+Square is a rectangle:
+	Fields:
+		width, height
+	Methods:
+	-CalculatePerimeter()
+	-CalculateArea()
+	
